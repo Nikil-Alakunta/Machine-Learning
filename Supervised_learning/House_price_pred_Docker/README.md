@@ -19,6 +19,8 @@
 # Start Everything
 - To start everything, you just need to be in the folder **`House_price_pred_Docker`** and execute : **`docker-compose up`**. After the installation that can take few minutes, you will see:
 <img src = "assets/Screenshot 2020-11-13 at 23.21.46.png">
+
+
 - This means that everything is fine and that the flask server is listening.
 - You can use curl to connect to the server to verify that the service is available:
 - use **`curl -X POST -H "Content-Type: application/json" -d @to_predict_json.json http://localhost:5000/predict_price`** 
