@@ -18,3 +18,4 @@
 
 # Start Everything
 - To start everything, you just need to be in the folder **`House_price_pred_Docker`** and execute : **`docker-compose up`**. After the installation that can take few minutes, you will see:
+<img src = "assets/Screenshot 2020-11-13 at 23.21.46.png">
